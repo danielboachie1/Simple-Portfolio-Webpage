@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    width: 1188px;
+    background: url(pexels-rodolfoclix-1597017.jpg);
+    background-position: center;
+    background-size: cover; 
+    height: 100vh;
+    position:relative;
+    font-family:'Times New Roman';
+}
+
+.navbar{
+    width: 100%;
+    display: flex;
+    margin: auto;
+    padding: 15px 0;
+    align-items: center; 
+    justify-content: space-between;
+}
+
+.navbar .logo{
+    width: 100px; 
+    cursor: pointer;
+    margin-top: -3px;
+    margin-left: 4px;
+    margin-right: -2px;
+    border-radius: 48px 0;
+
+}
+
+ul{
+    margin-top: -4px;
+}
+
+ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 16px;
+}
+
+ul li a{
+    font: bold;
+    font-size: 17px;
+    text-decoration:none;
+    margin-top: -3px;
+    transition: .4s ease;
+}
+
+ul li a:hover{
+    color: rgb(237, 93, 16); 
+}
+
+.info{
+    margin-top: 6px;
+    margin-left: 30px;
+}
+
+.info em{
+    font-size: xx-large;
+    color: orangered;
+}
+
+.info h1{
+    font-size: 48px;
+    color: rgb(56, 125, 113);
+
+}
+
+.info h3{
+    font-size: 17px;
+    letter-spacing: 1px;
+    line-height: 24px;
+}
+
+.info span{
+    color: orangered;
+}
+
+.info a{
+    text-decoration: none;
+    color: orangered;
+    background-color: rgb(35, 46, 46);
+    margin: 26px 0;
+    padding: 10px 17px;
+    border-radius: 10px;
+    display: inline-block;
+    transition: .4s ease;
+}
+
+.info a:hover{
+    background-color: aqua;
+}
+
+.image{
+width: 30%;
+height: 60%;
+position: absolute;
+right: 100px;
+bottom: 0;
+}
+
+.image .me{
+    position: absolute;
+    height: 300px;
+    width: 260px;
+    left: 40%;
+    transform: translate(-55%);
+    bottom: 26px;
+    border-radius: 26px;
+    transition: left .6s ease;
+}
+
+.image:hover .me{
+    left: 55%;
+}
+
+.icons{
+    text-decoration: none;
+
+}
+
+.icons .social-icon{
+    width: 35px;
+    margin-left: 3%;
+}
